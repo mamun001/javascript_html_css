@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<header> 
+    <br>
+    <br>
+    <h2><center>ADD 2 Numbers</center> </h2> 
+    <br>
+</header>
+
+
+<head>
+  <meta charset="UTF-8">
+  <title> ADD 2 Numbers</title>
+
+  <body>
+  <link rel="stylesheet" href="./style.css">
+  <form action="PayslipServlet" method="get">
+          First Number:    <input type="text" name="n1" id="n1"><br/>
+          Second Number:   <input type="text" name="n2" id="n2"><br/>
+          Sum: <span id="Sum"></span>
+          <br>
+          <input type="button" value="Submit" onClick="pr()">
+        </form>
+
+        <script>
+          function pr() {
+            var foobar = 100;
+            <!-- works -->
+            <!-- document.getElementById("Sum").innerHTML = +document.getElementById('n1').value  ; works -->
+            <!-- works -->
+            <!-- document.getElementById("Sum").innerHTML = +document.getElementById('n2').value  ; works -->
+            <!-- works -->
+            <!-- document.getElementById("Sum").innerHTML = +document.getElementById('n1').value +foobar  ; -->
+            <!-- concatenates as strings -->
+            document.getElementById("Sum").innerHTML = +document.getElementById('n1').value + +document.getElementById('n2').value  ;
+          }
+        </script>
+
+  </body>
+
+</head>
