@@ -1,4 +1,7 @@
 
+
+// to run: load check_answer_1_question.html in chrome
+
 function check_answer() {
             given_ans = +document.getElementById('ans').value
             // document.getElementById("eval").innerHTML = typeof given_ans  ; 

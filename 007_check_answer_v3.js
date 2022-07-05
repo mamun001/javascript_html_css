@@ -1,5 +1,10 @@
+
+// to test: load check_answer_3_question.html on chrome
+
 //will execute when the page loads
 //so that we are sure the h6 did indeed load.
+
+
 onload = function() {
   document.querySelector('h11').innerHTML = question_answer.question1;
   document.querySelector('h12').innerHTML = question_answer.question2;

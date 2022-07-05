@@ -1,5 +1,11 @@
+
+
+// to test:  load check_answer_2_question.html on chrome
+
 //will execute when the page loads
 //so that we are sure the h6 did indeed load.
+
+
 onload = function() {
   document.querySelector('h77').innerHTML = question_answer.question;
 }

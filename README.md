@@ -1,7 +1,7 @@
 
 
-# This project needs a better Readme :-)
+# This project is a result of me learning javascript step by step
 
-#### This repo holds my various javascript, HTML, CSS codes
+#### Filenames are sorted numerically to represnet my learning path (roughly easy to hard)
 
 
